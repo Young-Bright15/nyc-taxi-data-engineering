@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Large data files
+*.parquet
+*.csv
+*.json
+*.gz
+
+# Spark output and local processing folders
+data/raw/
+data/processed/
+data/gold/
+data/quarantined/
+data/quarantine/
+
+# Logs
+*.log
+
+# VS Code local settings
+.vscode/
